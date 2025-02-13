@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Portfolio of Golang Developer & Innovator - Abhishek Chaurasiya" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Abhishek Chaurasiya</title>
+  <!-- Favicon (optional) -->
+  <!-- <link rel="icon" href="path-to-your-favicon.ico" /> -->
+  <!-- Google Fonts (example) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <div class="logo">
+      <!-- You can use a logo image or just text -->
+      <h1>AC</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="greeting-wrapper">
+        <h2 class="greeting">
+          <span class="wave">👋</span> Hello! I'm
+        </h2>
+        <div class="name-wrapper">
+          <h1 class="name glitch">Abhishek Chaurasiya</h1>
+          <div class="name-bg"></div>
+        </div>
+      </div>
+      
+      <p class="tagline">
+        <span class="highlight">Golang Developer</span> building secure, 
+        <span class="highlight">scalable systems</span> & 
+        <span class="highlight">startup solutions</span> that drive impact
+      </p>
+  
+      <div class="cta-wrapper">
+        <a href="#projects" class="cta">
+          <span>Explore My Work</span>
+          <i class='bx bx-right-arrow-alt'></i>
+        </a>
+        <a href="#contact" class="cta secondary">
+          <span>Let's Connect</span>
+          <i class='bx bx-chat'></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="about-container">
+      <h2 class="section-title">About Me</h2>
+      
+      <div class="about-content">
+        <div class="about-text">
+          <p class="lead">
+            I'm a dedicated Computer Science graduate from Chitkara University with a keen interest 
+            in Golang, blockchain, and building efficient, scalable backend systems. 
+          </p>
+          
+          <p>
+            My technical journey combines hands-on development experience with entrepreneurial leadership. 
+            I specialize in optimizing backend performance through concurrency patterns and database 
+            optimizations, while also fostering innovation through startup initiatives that have 
+            supported 15+ student ventures.
+          </p>
+  
+          <div class="highlight-box">
+            <p>
+              Beyond code, I thrive at the intersection of technology and leadership - whether 
+              architecting secure authentication systems or building communities that bridge 
+              technical execution with strategic vision.
+            </p>
+          </div>
+  
+          <blockquote class="signature-quote">
+            <span>"</span>Innovate through iteration, impact through execution<span>"</span>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Add Boxicons CDN in your <head> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Updated Skills Section -->
+    <section id="skills" class="skills">
+      <h2>Technical Arsenal</h2>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <div class="skill-header">
+            <i class='bx bx-code-alt'></i>
+            <h3>Languages</h3>
+          </div>
+          <ul>
+            <li><i class='bx bxl-go-lang'></i>Golang</li>
+            <li><i class='bx bxl-javascript'></i>JavaScript</li>
+            <li><i class='bx bx-code'></i>HTML & CSS</li>
+            <li><i class='bx bx-data'></i>SQL</li>
+          </ul>
+        </div>
+    
+        <div class="skill-card">
+          <div class="skill-header">
+            <i class='bx bx-layer'></i>
+            <h3>Frameworks & DB</h3>
+          </div>
+          <ul>
+            <li><i class='bx bxl-nodejs'></i>Node.js & Express.js</li>
+            <li><i class='bx bx-cube'></i>Gin & Fiber (Go)</li>
+            <li><i class='bx bx-server'></i>MongoDB & PostgreSQL</li>
+          </ul>
+        </div>
+    
+        <div class="skill-card">
+          <div class="skill-header">
+            <i class='bx bx-wrench'></i>
+            <h3>Tools</h3>
+          </div>
+          <ul>
+            <li><i class='bx bx-package'></i>Docker</li>
+            <li><i class='bx bx-api'></i>Postman</li>
+            <li><i class='bx bx-bolt-circle'></i>Redis & Kafka</li>
+            <li><i class='bx bx-git-branch'></i>Git & GitHub</li>
+          </ul>
+        </div>
+    
+        <div class="skill-card">
+          <div class="skill-header">
+            <i class='bx bx-user-voice'></i>
+            <h3>Non-Technical</h3>
+          </div>
+          <ul>
+            <li><i class='bx bx-line-chart'></i>Business Development</li>
+            <li><i class='bx bx-brain'></i>AI Tools</li>
+            <li><i class='bx bx-group'></i>Leadership</li>
+            <li><i class='bx bx-network-chart'></i>Networking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  <!-- Add this to your experience section -->
+<section id="experience" class="experience">
+    <h2>Professional Journey</h2>
+    <div class="timeline">
+      <!-- Zenithware -->
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <i class='bx bx-code-curly'></i>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <span class="timeline-date">Apr 2024 - Oct 2024</span>
+            <span class="timeline-company">Zenithware, Noida</span>
+          </div>
+          <h3 class="timeline-title">Golang Developer Intern</h3>
+          <ul>
+            <li><i class='bx bx-check'></i>Built scalable backend APIs with Go, reducing response times by 20%</li>
+            <li><i class='bx bx-check'></i>Implemented secure user authentication (JWT), reducing security vulnerabilities by 30%</li>
+            <li><i class='bx bx-check'></i>Integrated PostgreSQL & MongoDB to enhance data reliability & reduce query latency by 15%</li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Antier Solutions -->
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <i class='bx bx-group'></i>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <span class="timeline-date">Aug 2023 - Jan 2024</span>
+            <span class="timeline-company">Antier Solutions Pvt. Ltd.</span>
+          </div>
+          <h3 class="timeline-title">On-Job-Training</h3>
+          <ul>
+            <li><i class='bx bx-check'></i>Developed Golang-based RESTful APIs focusing on performance & secure coding</li>
+            <li><i class='bx bx-check'></i>Leveraged concurrency tools (goroutines) to enhance team efficiency by 15%</li>
+            <li><i class='bx bx-check'></i>Collaborated with cross-functional teams on five projects</li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- CEED Jazba E-Cell -->
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <i class='bx bx-trophy'></i>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <span class="timeline-date">Nov 2021 - Jul 2022</span>
+            <span class="timeline-company">CEED Jazba E-Cell</span>
+          </div>
+          <h3 class="timeline-title">Founding President</h3>
+          <ul>
+            <li><i class='bx bx-check'></i>Established an Entrepreneur Cell supporting 15 student startups</li>
+            <li><i class='bx bx-check'></i>Achieved 37.5x funding growth (INR 7.5 lakhs in 8 months)</li>
+            <li><i class='bx bx-check'></i>Led teams uniting technology and strategy for innovative student initiatives</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Technical Projects</h2>
+    <div class="project-grid">
+      <!-- GYM Buddy Finder -->
+      <div class="project-card">
+        <div class="project-header">
+          <i class='bx bx-dumbbell'></i>
+          <h3>GYM Buddy Finder</h3>
+        </div>
+        <div class="tech-tags">
+          <span><i class='bx bxl-go-lang'></i>Golang</span>
+          <span><i class='bx bx-data'></i>MongoDB</span>
+          <span><i class='bx bx-memory-card'></i>Redis</span>
+          <span><i class='bx bx-package'></i>Docker</span>
+        </div>
+        <p class="project-description">
+          RESTful API matching gym enthusiasts by goals and location. Reduced query latency by 50% through Redis caching.
+        </p>
+        <div class="project-actions">
+          <a href="#" class="project-link">
+            <i class='bx bx-code-alt'></i>View Code
+          </a>
+          <a href="#" class="project-link">
+            <i class='bx bx-link-external'></i>Live Demo
+          </a>
+        </div>
+      </div>
+  
+      <!-- Roommate Rating System -->
+      <div class="project-card">
+        <div class="project-header">
+          <i class='bx bx-home'></i>
+          <h3>Roommate Rating System</h3>
+        </div>
+        <div class="tech-tags">
+          <span><i class='bx bxl-go-lang'></i>Golang</span>
+          <span><i class='bx bx-shield-quarter'></i>JWT</span>
+          <span><i class='bx bx-transfer-alt'></i>Kafka</span>
+          <span><i class='bx bx-cube'></i>Docker</span>
+        </div>
+        <p class="project-description">
+          Secure rating platform with async communication via Kafka and rate limiting through Redis.
+        </p>
+        <div class="project-actions">
+          <a href="#" class="project-link">
+            <i class='bx bx-code-alt'></i>View Code
+          </a>
+          <a href="#" class="project-link">
+            <i class='bx bx-link-external'></i>Live Demo
+          </a>
+        </div>
+      </div>
+  
+      <!-- B&B Booking Platform -->
+      <div class="project-card">
+        <div class="project-header">
+          <i class='bx bx-bed'></i>
+          <h3>B&B Booking Platform</h3>
+        </div>
+        <div class="tech-tags">
+          <span><i class='bx bxl-go-lang'></i>Golang</span>
+          <span><i class='bx bx-data'></i>PostgreSQL</span>
+          <span><i class='bx bx-envelope'></i>Notifications</span>
+          <span><i class='bx bx-check-shield'></i>RBAC</span>
+        </div>
+        <p class="project-description">
+          Full-stack reservation system with automated email notifications and role-based access control.
+        </p>
+        <div class="project-actions">
+          <a href="#" class="project-link">
+            <i class='bx bx-code-alt'></i>View Code
+          </a>
+          <a href="#" class="project-link">
+            <i class='bx bx-link-external'></i>Live Demo
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Achievements Section -->
+<section id="achievements" class="achievements">
+    <h2>Achievements & Endorsements</h2>
+    <div class="achievement-grid">
+      <div class="achievement-card">
+        <div class="achievement-header">
+          <i class='bx bx-award'></i>
+          <h3>Letter of Recommendation – CEED</h3>
+        </div>
+        <p>Strong recommendation from Mr. Sumeer Walia (Director of Entrepreneurship at CEED) for leadership and innovation.</p>
+      </div>
+      
+      <div class="achievement-card">
+        <div class="achievement-header">
+          <i class='bx bx-trophy'></i>
+          <h3>Winner, CEED Innovest</h3>
+        </div>
+        <p>Secured 1st place among 700 entries; awarded INR 20,000 grant by the Secretary of HP.</p>
+      </div>
+      
+      <div class="achievement-card">
+        <div class="achievement-header">
+          <i class='bx bx-rocket'></i>
+          <h3>Founder @ Northncart.com</h3>
+        </div>
+        <p>Launched innovative e-commerce platform and co-founded ProdineIn restaurant chain.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Let's Connect</h2>
+    <p class="contact-sub">Collaborate or just say hi! 📬</p>
+    
+    <div class="contact-grid">
+      <!-- Left Column -->
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class='bx bx-phone'></i>
+          <a href="tel:+919670007886">+91 9670007886</a>
+        </div>
+        
+        <div class="contact-item">
+          <i class='bx bx-envelope'></i>
+          <a href="mailto:chaurasiyaa750@gmail.com">chaurasiyaa750@gmail.com</a>
+        </div>
+      </div>
+  
+      <!-- Right Column -->
+      <div class="social-links">
+        <a href="#" class="social-btn" target="_blank">
+          <i class='bx bxl-linkedin'></i>
+          LinkedIn
+        </a>
+        <a href="#" class="social-btn" target="_blank">
+          <i class='bx bxl-github'></i>
+          GitHub
+        </a>
+        <a href="#" class="social-btn" target="_blank">
+          <i class='bx bxl-instagram-alt'></i>
+          Instagram
+        </a>
+        <a href="#" class="social-btn" target="_blank">
+          <i class='bx bxl-snapchat'></i>
+          Snapchat
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="year"></span> Abhishek Chaurasiya. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Dynamic year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Optional: Smooth scroll for anchor links
+    const navLinks = document.querySelectorAll('nav ul li a');
+    for (let link of navLinks) {
+      link.addEventListener('click', smoothScroll);
+    }
+
+    function smoothScroll(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+      window.scrollTo({
+        top: targetSection.offsetTop - 60, // adjust offset for header
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</body>
+</html>
