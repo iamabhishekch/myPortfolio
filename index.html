@@ -16,7 +16,7 @@
   <!-- HEADER / NAVIGATION -->
   <header>
     <div class="logo">
-      <h1>AC</h1>
+      <h1>Abhishek</h1>
     </div>
     <nav>
       <ul>
@@ -28,6 +28,9 @@
         <li><a href="#achievements">Achievements</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <i class='bx bx-menu'></i>
+      </button>
     </nav>
   </header>
 
@@ -399,6 +402,16 @@
 
   <!-- JavaScript -->
   <script>
+
+// Add this script at the end of your HTML file, before the closing </body> tag 
+
+  const hamburger = document.querySelector('.hamburger');
+  const navLinksContainer = document.querySelector('nav ul');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+
     // Dynamic year in footer
     document.getElementById('year').textContent = new Date().getFullYear();
 

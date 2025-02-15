@@ -709,3 +709,46 @@ footer p {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+
+
+/* responsiveness*/
+
+/* Add these lines to your existing CSS file */
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav li {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
